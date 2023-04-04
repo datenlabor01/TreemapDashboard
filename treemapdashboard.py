@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 import dash_bootstrap_components as dbc
 
-dat = pd.read_csv("https://github.com/datenlabor01/app/blob/main/df_oda_ges.csv?raw=true")
+dat = pd.read_csv("https://github.com/datenlabor01/TreemapDashboard/blob/main/df_oda_ges.csv?raw=true")
 dat["Value"] = dat["USD_Disbursement"]
 
 #Build two-year average
