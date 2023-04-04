@@ -52,7 +52,7 @@ text2 = "Diese Anwendung wird als Prototyp vom BMZ Datenlabor angeboten. Sie kan
 
 app.layout = dbc.Container([
       dbc.Row([
-         html.Div(html.Img(src="assets/logo.png", style={'height':'80%', 'width':'20%'})
+         html.Div(html.Img(src="https://raw.githubusercontent.com/datenlabor01/TreemapDashboard/main/logo.png", style={'height':'80%', 'width':'20%'})
          )], style={'textAlign': 'center'}),
       
       dbc.Row([
